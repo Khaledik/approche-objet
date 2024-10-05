@@ -30,12 +30,12 @@ public class Personne {
         this.adressePostale = adressePostale;
     }
 
-    public void sayMyLastName() {
-        System.out.println(this.nom);
+    public String sayMyLastName() {
+        return nom;
     }
 
-    public void sayMyFirstName() {
-        System.out.println(this.prenom);
+    public String sayMyFirstName() {
+        return prenom;
     }
 
     public void sayMyAdress() {

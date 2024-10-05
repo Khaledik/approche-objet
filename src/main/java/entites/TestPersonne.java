@@ -11,6 +11,7 @@ public class TestPersonne {
 
         Personne personne2 = new Personne("Dujardin", "Jean", new AdressePostale(20, "rue de tigre", 34000, "Montpellier"));
 
+        personne1.whatsYourName();
         personne1.myLastNameIs("Baba");
         personne1.myFirstNameIs("Yaga");
         personne1.whatsYourName();
