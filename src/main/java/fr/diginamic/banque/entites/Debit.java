@@ -6,10 +6,6 @@ public class Debit extends Operation{
         super(dateOperation, montantOperation);
     }
 
-//    @Override
-//    public String toString() {
-//        return "Debit : " + super.toString();
-//    }
 
     @Override
     public String getType() {

@@ -6,10 +6,7 @@ public class Credit extends Operation {
         super(dateOperation, montantOperation);
     }
 
-//    @Override
-//    public String toString() {
-//        return "Credit : " + super.toString();
-//    }
+
 
     @Override
     public String getType() {

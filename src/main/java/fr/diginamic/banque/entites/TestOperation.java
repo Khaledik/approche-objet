@@ -14,13 +14,13 @@ public class TestOperation {
 
         double total = 0;
 
-        for(Operation operation : tableauOperation) {
-            System.out.println( operation.getType() + " " + operation.dateOperation + " " + operation.montantOperation);
+        for (Operation operation : tableauOperation) {
+            System.out.println(operation);
 
-            if (Objects.equals(operation.getType(), "CREDIT")) {
-                total += operation.montantOperation;
-            } else if (Objects.equals(operation.getType(), "DEBIT")) {
-                total -= operation.montantOperation;
+            if (operation.getType().equals("CREDIT")) {
+                total += operation.getMontantOperation();
+            } else if (operation.getType().equals("DEBIT")) {
+                total -= operation.getMontantOperation();
             }
         }
 
