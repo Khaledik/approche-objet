@@ -9,7 +9,6 @@ public class TestListeString {
 
         ArrayList<String> city = new ArrayList<String>(Arrays.asList("Nice", "Carcassonne", "Narbonne", "Lyon", "Foix", "Pau", "Marseille", "Tarbes"));
 
-        Iterator<String> iterator = city.iterator();
 
         String mostLetters = city.getFirst();
 
@@ -32,14 +31,16 @@ public class TestListeString {
 
         }
 
-        for (int i = 0; i < city.size(); i++) {
-            String cit = city.get(i);
+//        for (int i = 0; i < city.size(); i++) {
+//            String cit = city.get(i);
+//
+//            if (cit.charAt(0) == 'N') {
+//                city.remove(i);
+//            }
+//
+//        }
 
-            if (cit.charAt(0) == 'N') {
-                city.remove(i);
-            }
-
-        }
+        city.removeIf(ville -> ville.startsWith("N"));
 
         System.out.println(city);
 
