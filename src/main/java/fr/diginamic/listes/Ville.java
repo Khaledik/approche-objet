@@ -15,6 +15,7 @@ public class Ville {
         return nom + " " + nbHabitants + " Habitants";
     }
 
+
     public String getNom() {
         return nom;
     }

@@ -5,6 +5,7 @@ public class VilleEquals {
     private String nom;
     private int nbHabitants;
 
+
     public VilleEquals(String nom, int nbHabitants) {
         this.nom = nom;
         this.nbHabitants = nbHabitants;

@@ -6,7 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="3e93d8f4-85d1-4337-b67e-c354ed6025a1" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/fr/diginamic/listes/TestListeString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/diginamic/listes/TestListeString.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/diginamic/equals/VilleEquals.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/diginamic/equals/VilleEquals.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/diginamic/listes/Ville.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/diginamic/listes/Ville.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,6 +46,9 @@
     "Application.ManipulationChaine.executor": "Run",
     "Application.MapVilles.executor": "Run",
     "Application.TestBanque.executor": "Run",
+    "Application.TestCalendar.executor": "Run",
+    "Application.TestDates.executor": "Run",
+    "Application.TestEquals.executor": "Run",
     "Application.TestIntervenant.executor": "Run",
     "Application.TestJdr.executor": "Run",
     "Application.TestListeInt.executor": "Run",
@@ -58,6 +62,7 @@
     "Application.TestPersonne.executor": "Run",
     "Application.TestSetDouble.executor": "Run",
     "Application.TestSetString.executor": "Run",
+    "Application.TestStringBuilder.executor": "Run",
     "Application.TestTheatre.executor": "Run",
     "Application.TestVilles.executor": "Run",
     "Application.TestVillesTri.executor": "Run",
@@ -81,16 +86,17 @@
       <recent name="C:\Users\khale\Desktop\approche-objet\src\main\java\fr\diginamic\fichier" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="fr.diginamic.equals" />
       <recent name="fr.diginamic.tri" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TestJdr">
-    <configuration name="ComptagePaysParContinent" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="fr.diginamic.maps.ComptagePaysParContinent" />
+  <component name="RunManager" selected="Application.TestEquals">
+    <configuration name="TestCalendar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="fr.diginamic.dates.TestCalendar" />
       <module name="approche-objet" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="fr.diginamic.maps.*" />
+          <option name="PATTERN" value="fr.diginamic.dates.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -98,12 +104,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FusionMap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="fr.diginamic.maps.FusionMap" />
+    <configuration name="TestDates" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="fr.diginamic.dates.TestDates" />
       <module name="approche-objet" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="fr.diginamic.maps.*" />
+          <option name="PATTERN" value="fr.diginamic.dates.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -111,12 +117,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MapVilles" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="fr.diginamic.maps.MapVilles" />
+    <configuration name="TestEquals" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="fr.diginamic.equals.TestEquals" />
       <module name="approche-objet" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="fr.diginamic.maps.*" />
+          <option name="PATTERN" value="fr.diginamic.equals.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -137,12 +143,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestMaison" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="fr.diginamic.essais.TestMaison" />
+    <configuration name="TestStringBuilder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="fr.diginamic.chaines.TestStringBuilder" />
       <module name="approche-objet" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="fr.diginamic.essais.*" />
+          <option name="PATTERN" value="fr.diginamic.chaines.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -152,11 +158,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestEquals" />
+        <item itemvalue="Application.TestCalendar" />
+        <item itemvalue="Application.TestDates" />
+        <item itemvalue="Application.TestStringBuilder" />
         <item itemvalue="Application.TestJdr" />
-        <item itemvalue="Application.TestMaison" />
-        <item itemvalue="Application.ComptagePaysParContinent" />
-        <item itemvalue="Application.MapVilles" />
-        <item itemvalue="Application.FusionMap" />
       </list>
     </recent_temporary>
   </component>
@@ -177,7 +183,7 @@
       <option name="presentableId" value="Default" />
       <updated>1728031778932</updated>
       <workItem from="1728548850130" duration="27370000" />
-      <workItem from="1728638975416" duration="24640000" />
+      <workItem from="1728638975416" duration="40810000" />
     </task>
     <servers />
   </component>
