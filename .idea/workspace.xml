@@ -6,8 +6,12 @@
   <component name="ChangeListManager">
     <list default="true" id="3e93d8f4-85d1-4337-b67e-c354ed6025a1" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/fr/diginamic/equals/VilleEquals.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/diginamic/equals/VilleEquals.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/fr/diginamic/listes/Ville.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/diginamic/listes/Ville.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/diginamic/essais/TestJdr.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/diginamic/essais/TestJdr.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/diginamic/jdr/Creature.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/diginamic/jdr/Creature.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/diginamic/jdr/Gobelin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/diginamic/jdr/Gobelin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/diginamic/jdr/Loup.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/diginamic/jdr/Loup.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/diginamic/jdr/Personnage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/diginamic/jdr/Personnage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/diginamic/jdr/Troll.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/diginamic/jdr/Troll.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,54 +37,55 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.ComptagePaysParContinent.executor": "Run",
-    "Application.CreationEtManipulationMap.executor": "Run",
-    "Application.CreationListe.executor": "Run",
-    "Application.CreationMap.executor": "Run",
-    "Application.CreerFichier.executor": "Run",
-    "Application.FusionListe.executor": "Run",
-    "Application.FusionMap.executor": "Run",
-    "Application.LectureFichier.executor": "Run",
-    "Application.ManipulationChaine.executor": "Run",
-    "Application.MapVilles.executor": "Run",
-    "Application.TestBanque.executor": "Run",
-    "Application.TestCalendar.executor": "Run",
-    "Application.TestDates.executor": "Run",
-    "Application.TestEquals.executor": "Run",
-    "Application.TestIntervenant.executor": "Run",
-    "Application.TestJdr.executor": "Run",
-    "Application.TestListeInt.executor": "Run",
-    "Application.TestListeString.executor": "Run",
-    "Application.TestMaison.executor": "Run",
-    "Application.TestMethodeStatic.executor": "Run",
-    "Application.TestMoyenne.executor": "Run",
-    "Application.TestOperation.executor": "Run",
-    "Application.TestOperations.executor": "Run",
-    "Application.TestPays.executor": "Run",
-    "Application.TestPersonne.executor": "Run",
-    "Application.TestSetDouble.executor": "Run",
-    "Application.TestSetString.executor": "Run",
-    "Application.TestStringBuilder.executor": "Run",
-    "Application.TestTheatre.executor": "Run",
-    "Application.TestVilles.executor": "Run",
-    "Application.TestVillesTri.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/khale/Desktop/approche-objet/src/main/java/fr/diginamic/fichier",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "C:/Users/khale/Desktop/tp_java_ikhlef_khaled/approche-objet/src/main/java/org/example/Main.java",
-    "settings.editor.selected.configurable": "preferences.lookFeel",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.ComptagePaysParContinent.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CreationEtManipulationMap.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CreationListe.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CreationMap.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CreerFichier.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FusionListe.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FusionMap.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LectureFichier.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ManipulationChaine.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MapVilles.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TestBanque.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TestCalendar.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TestDates.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TestEquals.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TestIntervenant.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TestJdr.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TestListeInt.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TestListeString.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TestMaison.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TestMethodeStatic.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TestMoyenne.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TestOperation.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TestOperations.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TestPays.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TestPersonne.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TestSetDouble.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TestSetString.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TestStringBuilder.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TestStringUtils.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TestTheatre.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TestVilles.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TestVillesTri.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/khale/Desktop/approche-objet/src/main/java/fr/diginamic/fichier&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/khale/Desktop/tp_java_ikhlef_khaled/approche-objet/src/main/java/org/example/Main.java&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\khale\Desktop\approche-objet\src\main\java\fr\diginamic\fichier" />
@@ -90,7 +95,7 @@
       <recent name="fr.diginamic.tri" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TestEquals">
+  <component name="RunManager" selected="Application.TestJdr">
     <configuration name="TestCalendar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="fr.diginamic.dates.TestCalendar" />
       <module name="approche-objet" />
@@ -143,12 +148,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestStringBuilder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="fr.diginamic.chaines.TestStringBuilder" />
+    <configuration name="TestStringUtils" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="utils.TestStringUtils" />
       <module name="approche-objet" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="fr.diginamic.chaines.*" />
+          <option name="PATTERN" value="utils.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -158,11 +163,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestJdr" />
+        <item itemvalue="Application.TestStringUtils" />
         <item itemvalue="Application.TestEquals" />
         <item itemvalue="Application.TestCalendar" />
         <item itemvalue="Application.TestDates" />
-        <item itemvalue="Application.TestStringBuilder" />
-        <item itemvalue="Application.TestJdr" />
       </list>
     </recent_temporary>
   </component>
@@ -183,7 +188,9 @@
       <option name="presentableId" value="Default" />
       <updated>1728031778932</updated>
       <workItem from="1728548850130" duration="27370000" />
-      <workItem from="1728638975416" duration="40810000" />
+      <workItem from="1728638975416" duration="48842000" />
+      <workItem from="1729067907867" duration="2000" />
+      <workItem from="1729158313151" duration="20282000" />
     </task>
     <servers />
   </component>
