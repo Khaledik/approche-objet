@@ -6,7 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="3e93d8f4-85d1-4337-b67e-c354ed6025a1" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/fr/diginamic/listes/Ville.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/diginamic/listes/Ville.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/diginamic/sets/Pays.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/diginamic/sets/Pays.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/diginamic/sets/TestPays.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/diginamic/sets/TestPays.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,6 +19,7 @@
       <list>
         <option value="Enum" />
         <option value="Class" />
+        <option value="AnnotationType" />
       </list>
     </option>
   </component>
@@ -51,6 +53,7 @@
     "Application.MapVilles.executor": "Run",
     "Application.TestBanque.executor": "Run",
     "Application.TestCalendar.executor": "Run",
+    "Application.TestContinentAvecEnum.executor": "Run",
     "Application.TestDates.executor": "Run",
     "Application.TestEnumeration.executor": "Run",
     "Application.TestEquals.executor": "Run",
@@ -92,11 +95,12 @@
       <recent name="C:\Users\khale\Desktop\approche-objet\src\main\java\fr\diginamic\fichier" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="fr.diginamic.testenumeration" />
       <recent name="fr.diginamic.equals" />
       <recent name="fr.diginamic.tri" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TestContinentAvecEnum">
+  <component name="RunManager" selected="Application.TestPays">
     <configuration name="TestContinentAvecEnum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="fr.diginamic.essais.TestContinentAvecEnum" />
       <module name="approche-objet" />
@@ -123,12 +127,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestEquals" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="fr.diginamic.equals.TestEquals" />
+    <configuration name="TestJdr" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="fr.diginamic.essais.TestJdr" />
       <module name="approche-objet" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="fr.diginamic.equals.*" />
+          <option name="PATTERN" value="fr.diginamic.essais.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -136,12 +140,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestJdr" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="fr.diginamic.essais.TestJdr" />
+    <configuration name="TestPays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="fr.diginamic.sets.TestPays" />
       <module name="approche-objet" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="fr.diginamic.essais.*" />
+          <option name="PATTERN" value="fr.diginamic.sets.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -164,11 +168,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestPays" />
         <item itemvalue="Application.TestContinentAvecEnum" />
         <item itemvalue="Application.TestEnumeration" />
         <item itemvalue="Application.TestJdr" />
         <item itemvalue="Application.TestStringUtils" />
-        <item itemvalue="Application.TestEquals" />
       </list>
     </recent_temporary>
   </component>
@@ -193,7 +197,7 @@
       <workItem from="1729067907867" duration="2000" />
       <workItem from="1729158313151" duration="22519000" />
       <workItem from="1729266750612" duration="3000" />
-      <workItem from="1729342135613" duration="9706000" />
+      <workItem from="1729342135613" duration="13190000" />
     </task>
     <servers />
   </component>

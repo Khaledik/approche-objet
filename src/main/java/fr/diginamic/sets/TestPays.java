@@ -1,9 +1,19 @@
 package fr.diginamic.sets;
 
+import java.lang.reflect.Field;
 import java.util.HashSet;
 
 public class TestPays {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IllegalAccessException {
+
+//      TP 21 ANNOTATIONS :
+        Pays france = new Pays("France", 65_200_000, 40_000);
+
+
+        System.out.println(france);
+
+
+//      ######################################
 
         HashSet<Pays> paysSet = new HashSet<Pays>();
 
@@ -17,8 +27,8 @@ public class TestPays {
         paysSet.add(new Pays("Russie", 145_000_000, 11_000));
         paysSet.add(new Pays("Inde", 1_380_000_000, 2_000));
 
-
         System.out.println(paysSet);
+
 
 //      Recherchez le pays avec le PIB/habitant le plus important
         Pays plusGrandPib = null;
