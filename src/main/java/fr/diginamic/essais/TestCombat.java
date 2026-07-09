@@ -1,11 +1,10 @@
 package fr.diginamic.essais;
 
-import fr.diginamic.jdr.*;
+import fr.diginamic.combat.*;
 
-import java.util.Random;
 import java.util.Scanner;
 
-public class TestJdr {
+public class TestCombat {
 
     //  COULEURS
     public static final String RESET = "\u001B[0m";

@@ -1,4 +1,4 @@
-package fr.diginamic.jdr;
+package fr.diginamic.combat;
 
 import java.util.Random;
 

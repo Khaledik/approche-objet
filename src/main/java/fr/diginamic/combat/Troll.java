@@ -1,24 +1,25 @@
-package fr.diginamic.jdr;
+package fr.diginamic.combat;
 
 import java.util.Random;
 
-public class Gobelin extends Creature {
+public class Troll extends Creature {
 
-    public Gobelin(int force, int pv) {
+    public Troll(int force, int pv) {
         super(force, pv);
     }
 
-    public static Gobelin create() {
+    public static Troll create() {
 
         Random rand = new Random();
         int randomForce = rand.nextInt(15 - 10 + 1) + 10;
         int randomPv = rand.nextInt(30 - 20 + 1) + 20;
 
-        return new Gobelin(randomForce, randomPv);
+        return new Troll(randomForce, randomPv);
     }
 
     @Override
     public String getRace() {
-        return "Gobelin";
+        return "Troll";
     }
+
 }
